@@ -46,4 +46,4 @@ In the previous section we have deployed a stack consisting of an S3 bucket and 
 ![](img/16-CreatedStack.png)
 
 ## Next steps
-We have seen how uploading a file to the S3 bucket automatically triggers CodePipeline execution which in turn deploys the infrastructure. Feel free to experiment with content of the infra.yaml file by adding tags or other options to the S3 bucket created. Each time you upload a new version of source.zip, the pipeline will run and deploy it modifying the infrastructure to match the cloud formation template.
+We have seen how uploading a file to the S3 bucket then trigger a CodePipeline execution which in turn deploys the infrastructure. Feel free to experiment with content of the infra.yaml file by adding tags or other options to the S3 bucket created. Each time you upload a new version of source.zip, the pipeline will run and deploy it modifying the infrastructure to match the cloud formation template.
